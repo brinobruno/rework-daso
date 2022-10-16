@@ -1,0 +1,1 @@
+Chakra UI icons https://chakra-ui.com/docs/components/icon
