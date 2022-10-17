@@ -5,17 +5,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-      /*
       backgroundImage: {
         darkbg: 'url(/src/assets/dark-background.jpg)'
       },
-      */
-      /*
       fontFamily: {
         sans: 'Roboto, sans-serif',
       },
-      */
-      /*
       colors: {
         gray: {
           100: '#E1E1E6',
@@ -30,7 +25,6 @@ module.exports = {
           900: '#505AAA',
         },
       }
-      */
     },
   },
   plugins: [],
