@@ -11,6 +11,17 @@ html, body {
   user-select: none
 }
 
-.header-section-active {
+body {
+  background-color: #fdfcf4;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, span, a, strong, li {
+  color: #061800;
+  /* color: #384633; */
+}
+
+
+.header-section-active a {
   color: #A56AB9;
 }
