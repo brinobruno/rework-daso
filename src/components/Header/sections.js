@@ -8,10 +8,6 @@ export const sectionsData = [
     href: '#sobre'
   },
   {
-    name: 'Em destaque',
-    href: '#destaque'
-  },
-  {
     name: 'Cardápio',
     href: '#cardapio'
   },

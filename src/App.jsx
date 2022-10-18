@@ -6,9 +6,9 @@ export function App() {
     <React.StrictMode>
       <Header />
       <main>
-        <div className='min-h-screen'>
-
-        </div>
+        <section className='min-h-screen' id='inicio' />
+        <section className='min-h-screen' id='sobre' />
+        <section className='min-h-screen' id='cardapio' />
       </main>
     </React.StrictMode>
   )

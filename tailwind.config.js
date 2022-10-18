@@ -9,7 +9,8 @@ module.exports = {
         darkbg: 'url(/src/assets/dark-background.jpg)'
       },
       fontFamily: {
-        sans: 'Roboto, sans-serif',
+        poppins: 'Poppins, sans-serif',
+        josefin: 'Josefin Sans, sans-serif',
       },
       colors: {
         gray: {
@@ -22,6 +23,7 @@ module.exports = {
           900: '#09090A'
         },
         purple: {
+          300: '#A56AB9',
           900: '#505AAA',
         },
       }
