@@ -59,7 +59,8 @@ export const Header = () => {
               <li key={i}>
                 <a
                   href={ item.href }
-                  className='font-josefin text-base font-semibold'
+                  className='capitalize font-josefin text-base font-semibold
+                  hover:text-purple-300'
                 >
                   { item.name }
                 </a>
