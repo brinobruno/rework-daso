@@ -23,7 +23,7 @@ export const Home = () => {
               href='#'
               target='_blank'
               className='font-josefin text-base font-bold text-white px-8 py-4
-              bg-purple-300 hover:bg-[#A943CB] hover:transition-colors
+              bg-purple-300 hover:bg-purple-500 hover:transition-colors
               duration-100 ease-in-out rounded-md'
             >
               Quero encomendar!
