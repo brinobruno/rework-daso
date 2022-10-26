@@ -4,6 +4,7 @@ import { Divider } from './components/Divider'
 import { Header } from './components/Header'
 import { Home } from './components/Home'
 import { About } from './components/About'
+import { Menu } from './components/Menu'
 
 export function App() {
   return (
@@ -16,7 +17,7 @@ export function App() {
         <Divider />
         <About />
         <Divider />
-        <section className='min-h-screen' id='cardapio'>cardapio</section>
+        <Menu />
       </main>
     </React.StrictMode>
   )
