@@ -1,8 +1,9 @@
 import * as React from 'react'
 
+import { Divider } from './components/Divider'
 import { Header } from './components/Header'
 import { Home } from './components/Home'
-import { Divider } from './components/Divider'
+import { About } from './components/About'
 
 export function App() {
   return (
@@ -13,7 +14,7 @@ export function App() {
       <main className='mt-28'>
         <Home />
         <Divider />
-        <section className='min-h-screen' id='sobre'>sobre</section>
+        <About />
         <Divider />
         <section className='min-h-screen' id='cardapio'>cardapio</section>
       </main>

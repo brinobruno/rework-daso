@@ -4,8 +4,7 @@ export const Home = () => {
   return (
     <section
       id='inicio'
-      className='flex justify-center bg-no-repeat bg-contain
-      bg-left h-[calc(100vh_-_112px)] px-6'
+      className='flex justify-center bg-no-repeat bg-contain bg-left py-32 px-6'
     >
       <div className='max-w-6xl w-full flex items-center justify-between'>
         <div className='h-full flex flex-col items-start justify-center
@@ -13,7 +12,7 @@ export const Home = () => {
           <h1 className='font-poppins font-bold text-4xl text-left'>
             "Sabores que lembrem memórias"
           </h1>
-          <p className='font-josefin font-regular text-lg text-[#384633]
+          <p className='font-josefin font-regular text-lg text-gray-700
           text-left'>
             <span className='font-bold text-purple-500'>
               DA.SO
