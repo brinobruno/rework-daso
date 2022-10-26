@@ -1,12 +1,12 @@
 import { ApolloClient, InMemoryCache } from '@apollo/client'
 
-const graphqlAPIEndpoint = process.env.REACT_APP_GRAPHQL_URI
-const graphqlAuthToken = process.env.REACT_APP_AUTH_TOKEN
+const hygraphAPIEndpoint = process.env.REACT_APP_HYGRAPH_URI
+const hygraphAuthToken = process.env.REACT_APP_HYGRAPH_AUTH_TOKEN
 
 export const client = new ApolloClient({
-  uri: graphqlAPIEndpoint,
+  uri: hygraphAPIEndpoint,
   headers: {
-    'Authorization': `Bearer ${ graphqlAuthToken }`
+    'Authorization': `Bearer ${ hygraphAuthToken }`
   },
   cache: new InMemoryCache(),
 })
