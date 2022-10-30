@@ -3,8 +3,8 @@ import Oreo from './../assets/oreo.jpg'
 export const About = () => {
   return (
     <section
-      id='inicio'
-      className='flex justify-center bg-no-repeat bg-contain bg-left py-32 px-6'
+      id='sobre'
+      className='flex justify-center py-32 px-6 bg-[#fdfcf4]'
     >
       <div className='max-w-6xl w-full flex items-center justify-between'>
         <div>
