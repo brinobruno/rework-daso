@@ -5,6 +5,7 @@ import { Header } from './components/Header'
 import { Home } from './components/Home'
 import { About } from './components/About'
 import { Menu } from './components/Menu'
+import { Feedback } from './components/Feedback'
 
 export function App() {
   return (
@@ -18,6 +19,8 @@ export function App() {
         <About />
         <Divider />
         <Menu />
+        <Divider />
+        <Feedback />
       </main>
     </React.StrictMode>
   )
