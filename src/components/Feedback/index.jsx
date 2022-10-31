@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Pagination } from 'swiper'
+import SwiperCore, { Pagination, Mousewheel } from 'swiper'
 
 import 'swiper/css'
 import 'swiper/css/pagination'
@@ -14,6 +14,8 @@ export const Feedback = () => {
 
   if (loading) return <span>Loading...</span>
   if (error) return <span>Server error!</span>
+
+  SwiperCore.use([Mousewheel])
 
   return (
     <section
@@ -34,7 +36,7 @@ export const Feedback = () => {
           modules={[ Pagination ]}
           pagination={{ clickable: true }}
           slidesPerView={ 1 }
-          mousewheel={ true }
+          mousewheel
           breakpoints={{
             768: {
               slidesPerView: 2,
