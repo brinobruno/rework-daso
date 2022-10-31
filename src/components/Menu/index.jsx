@@ -38,10 +38,12 @@ export const Menu = () => {
 
               <div>
               { category.products.map(((product, index) => (
-                <li className='list-none py-3 border-b-[1px] border-dashed
-                border-b-purple-300'>
+                <li
+                  className='list-none py-3 border-b-[1px] border-dashed
+                  border-b-purple-300'
+                  key={ index }
+                >
                   <div
-                    key={ index }
                     className='flex justify-between items-center'
                   >
                     <div className='text-left'>
