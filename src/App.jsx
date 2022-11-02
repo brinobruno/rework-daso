@@ -6,6 +6,7 @@ import { Home } from './components/Home'
 import { About } from './components/About'
 import { Menu } from './components/Menu'
 import { Feedback } from './components/Feedback'
+import { Contact } from './components/Contact'
 
 export function App() {
   return (
@@ -21,6 +22,8 @@ export function App() {
         <Menu />
         <Divider />
         <Feedback />
+        <Divider />
+        <Contact />
       </main>
     </React.StrictMode>
   )
