@@ -55,8 +55,8 @@ export const Contact = () => {
                   Name*
                 </label>
                 <input
-                  type="text"
-                  name="user_name"
+                  type='text'
+                  name='user_name'
                   placeholder='Nome'
                   required
                   className='mb-[2.4rem] py-2 px-4 rounded-md'
@@ -68,8 +68,8 @@ export const Contact = () => {
                   Email*
                 </label>
                 <input
-                  type="email"
-                  name="user_email"
+                  type='email'
+                  name='user_email'
                   placeholder='Email'
                   required
                   className='mb-9 py-2 px-4 rounded-md'
@@ -81,8 +81,8 @@ export const Contact = () => {
                   WhatsApp
                 </label>
                 <input
-                  type="tel"
-                  name="user_email"
+                  type='tel'
+                  name='user_email'
                   placeholder='Email'
                   className='mb-8 py-2 px-4 rounded-md'
                 />
@@ -95,7 +95,7 @@ export const Contact = () => {
                   Assunto*
                 </label>
                 <textarea
-                  name="message"
+                  name='message'
                   placeholder='Mensagem'
                   required
                   className='resize-none pt-2 pb-[100%] px-4 rounded-md'
@@ -104,8 +104,8 @@ export const Contact = () => {
             </div>
 
             <button
-              type="submit"
-              value="Send"
+              type='submit'
+              value='Send'
             >
               Enviar
             </button>
