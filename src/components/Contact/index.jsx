@@ -45,7 +45,7 @@ export const Contact = () => {
           <form
             ref={ form }
             onSubmit={ sendEmail }
-            className='flex justify-between items-start flex-col'
+            className='flex justify-between flex-col w-full'
           >
             <div className='flex justify-between items-start gap-10'>
               <div className='flex flex-col'>
@@ -86,9 +86,18 @@ export const Contact = () => {
                   placeholder='Email'
                   className='mb-8 py-2 px-4 rounded-md'
                 />
+
+                <button
+                  className='mb-8 py-2 px-4 rounded-md bg-purple-500
+                  text-gray-50'
+                  type='submit'
+                  value='Send'
+                >
+                  Enviar
+                </button>
               </div>
 
-              <div className='flex flex-col'>
+              <div className='flex flex-col w-full h-full'>
                 <label
                   className='font-josefin text-lg text-gray-900'
                 >
@@ -102,16 +111,17 @@ export const Contact = () => {
                 />
               </div>
             </div>
-
+{/* 
             <button
               type='submit'
               value='Send'
             >
               Enviar
             </button>
+*/}
           </form>
         </div>
       </div>
-    </section >
+    </section>
   )
 }
