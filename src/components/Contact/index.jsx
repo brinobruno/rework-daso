@@ -105,7 +105,7 @@ export const Contact = () => {
                 </label>
                 <textarea
                   name='message'
-                  placeholder='Mensagem'
+                  placeholder='Mensagem...'
                   required
                   className='resize-none pt-2 pb-[100%] px-4 rounded-md'
                 />
