@@ -35,7 +35,7 @@ export const Contact = () => {
         <div className='w-full flex items-center justify-center text-center'>
           <div>
             <h3 className='font-poppins font-bold text-4xl mb-4 text-center'>
-              Entre em contato com a gente!
+              Entre em contato!
             </h3>
           </div>
         </div>
