@@ -1,8 +1,9 @@
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 
 export const Contact = () => {
   const form = useRef()
+  const [showConfirmationMessage, setShowConfirmationMessage] = useState(false)
 
   const sendEmail = (e) => {
     // Raw test email
@@ -20,11 +21,13 @@ export const Contact = () => {
       publicAPIKey
     )
       .then((result) => {
-          console.log(result.text)
-      }, (error) => {
-          console.log(error.text)
-      });
-  };
+        console.log(result.text)
+        setShowConfirmationMessage(true)
+      },
+      (error) => {
+        console.log(error.text)
+      })
+  }
 
   return (
     <section
@@ -111,14 +114,16 @@ export const Contact = () => {
                 />
               </div>
             </div>
-{/* 
-            <button
-              type='submit'
-              value='Send'
-            >
-              Enviar
-            </button>
-*/}
+              {
+                showConfirmationMessage
+                ? <div className='flex justify-center text-center'>
+                    <span>
+                      Agradecemos sua mensagem!
+                      Entraremos em contato brevemente!
+                    </span>
+                  </div>
+                : ''
+              }
           </form>
         </div>
       </div>
