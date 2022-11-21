@@ -62,7 +62,7 @@ export const Contact = () => {
                   name='user_name'
                   placeholder='Nome'
                   required
-                  className='mb-[1.2rem] py-2 px-4 rounded-md'
+                  className='mb-[1.75rem] py-2 px-4 rounded-md'
                 />
 
                 <label
@@ -75,7 +75,7 @@ export const Contact = () => {
                   name='user_email'
                   placeholder='Email'
                   required
-                  className='mb-9 py-2 px-4 rounded-md'
+                  className='mb-[1.75rem] py-2 px-4 rounded-md'
                 />  
 
                 <label
@@ -85,8 +85,8 @@ export const Contact = () => {
                 </label>
                 <input
                   type='tel'
-                  name='user_email'
-                  placeholder='Email'
+                  name='user_phone_number'
+                  placeholder='Contato WhatsApp'
                   className='mb-8 py-2 px-4 rounded-md'
                 />
 
