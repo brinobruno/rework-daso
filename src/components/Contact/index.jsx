@@ -41,14 +41,14 @@ export const Contact = () => {
         </div>
 
         <div className='flex bg-purple-100 justify-center items-center
-        w-full max-w-[600px] mx-auto p-10 rounded-xl'>
+        w-full max-w-[600px] mx-auto p-10 rounded-xl mt-4'>
           <form
             ref={ form }
             onSubmit={ sendEmail }
             className='flex justify-between flex-col w-full'
           >
-            <div className='flex justify-between items-start gap-10'>
-              <div className='flex flex-col'>
+            <div className='flex justify-between items-start gap-6'>
+              <div className='flex flex-col w-[50%]'>
                 <label
                   className='font-josefin text-lg text-gray-900'
                 >
@@ -59,7 +59,7 @@ export const Contact = () => {
                   name='user_name'
                   placeholder='Nome'
                   required
-                  className='mb-[2.4rem] py-2 px-4 rounded-md'
+                  className='mb-[1.2rem] py-2 px-4 rounded-md'
                 />
 
                 <label
@@ -88,8 +88,8 @@ export const Contact = () => {
                 />
 
                 <button
-                  className='mb-8 py-2 px-4 rounded-md bg-purple-500
-                  text-gray-50'
+                  className='font-josefin mb-8 py-2 px-4 rounded-md
+                  bg-purple-500 text-gray-50'
                   type='submit'
                   value='Send'
                 >
@@ -97,7 +97,7 @@ export const Contact = () => {
                 </button>
               </div>
 
-              <div className='flex flex-col w-full h-full'>
+              <div className='flex flex-col h-full w-[50%]'>
                 <label
                   className='font-josefin text-lg text-gray-900'
                 >
