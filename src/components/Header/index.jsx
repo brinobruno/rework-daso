@@ -51,9 +51,13 @@ export const Header = () => {
 
           <ul> 
             <Scrollspy
-              items={ ['inicio', 'sobre', 'cardapio', 'depoimentos', 'contato'] }
+              items={
+                ['inicio', 'sobre', 'cardapio', 'depoimentos', 'contato']
+              }
               currentClassName='header-section-active'
               className='flex gap-8 mt-2'
+              /* Adjusts offset on selecting section */
+              offset={ -120 }
             >
             { sectionsData.map((item, i) => (
               <li key={i}>

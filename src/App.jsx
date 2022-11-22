@@ -7,6 +7,7 @@ import { About } from './components/About'
 import { Menu } from './components/Menu'
 import { Feedback } from './components/Feedback'
 import { Contact } from './components/Contact'
+import { Footer } from './components/Footer'
 
 export function App() {
   return (
@@ -25,6 +26,8 @@ export function App() {
         <Divider />
         <Contact />
       </main>
+      <Divider />
+      <Footer />
     </React.StrictMode>
   )
 }
