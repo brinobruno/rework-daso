@@ -32,7 +32,7 @@ export const Contact = () => {
   return (
     <section
       id='contato'
-      className='flex justify-center py-32 bg-[#FFFFFF] flex-col'
+      className='flex justify-center py-32 px-6 bg-[#FFFFFF] flex-col'
     >
       <div className='w-full max-w-6xl mx-auto'>
         <div className='w-full flex items-center justify-center text-center'>
