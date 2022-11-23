@@ -1,3 +1,6 @@
+import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
+import { SiLinktree } from 'react-icons/si'
+
 import DasoLogoLight from './../assets/daso-logo-light.png'
 
 export const Footer = () => {
@@ -26,26 +29,38 @@ export const Footer = () => {
 
           <div className='flex gap-7 items-center justify-end'>
             <a
-              href=''
+              href='https://www.instagram.com/daso.confeitaria/</div>'
               target='_blank'
               rel='noopener noreferrer'
             >
-              Instagram
-              <img
-                src=''
-                alt=''
+              <FaInstagram
+                color="#FAFAFA"
+                size={ 30 }
+                title="Instagram"
               />
             </a>
 
             <a
-              href=''
+              href='https://api.whatsapp.com/send?phone=5512996311208&text=Oie!%20Quero%20doces!%20Quais%20tem%20disponíveis?'
               target='_blank'
               rel='noopener noreferrer'
             >
-              WhatsApp
-              <img
-                src=''
-                alt=''
+              <FaWhatsapp
+                color="#FAFAFA"
+                size={ 30 }
+                title="WhatsApp"
+              />
+            </a>
+
+            <a
+              href='https://linktr.ee/da.so'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <SiLinktree
+                color="#FAFAFA"
+                size={ 30 }
+                title="Linktree"
               />
             </a>
           </div>

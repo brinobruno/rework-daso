@@ -92,7 +92,8 @@ export const Contact = () => {
 
                 <button
                   className='font-josefin mb-8 py-2 px-4 rounded-md
-                  bg-purple-500 text-gray-50'
+                  bg-purple-300 text-gray-50 hover:bg-purple-500
+                  hover:transition-colors duration-100 ease-in-out '
                   type='submit'
                   value='Send'
                 >
