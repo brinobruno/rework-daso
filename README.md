@@ -68,3 +68,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# For later
+https://codesandbox.io/s/divine-grass-s27xs?from-embed=&file=/src/containers/ScrollReveal.tsx
+
+  const scrollReveal = ScrollReveal({
+    origin: 'top',
+    distance: '30px',
+    duration: 700,
+    reset: true
+  })
+
+  scrollReveal.reveal(
+    `#`
+    ,{ interval: 100 }
+  )
+
+  import ScrollReveal from 'scrollreveal'
