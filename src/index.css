@@ -83,3 +83,7 @@ p, span, a, strong, li {
 .swiper-slide img {
   clip-path: circle();
 }
+
+.dc-back-to-top {
+  clip-path: circle();
+}

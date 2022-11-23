@@ -8,6 +8,7 @@ import { Menu } from './components/Menu'
 import { Feedback } from './components/Feedback'
 import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
+import { BackToTop } from './components/BackToTop'
 
 export function App() {
   return (
@@ -28,6 +29,8 @@ export function App() {
       </main>
       <Divider />
       <Footer />
+
+      <BackToTop />
     </React.StrictMode>
   )
 }
