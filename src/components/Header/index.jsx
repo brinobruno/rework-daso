@@ -32,7 +32,7 @@ export const Header = () => {
       <div className='bg-[#fbfbfb] h-1 w-full sticky z-50'>
         <div
           className='bg-purple-500 text-[0.16rem] md:text-[0.2rem]'
-          style={{ width: `${scrollTop}%` }}
+          style={{ width: `${ scrollTop }%` }}
         >ㅤ { /** Invisible char so that it uses font-size for the bar **/}
         </div>
       </div>
