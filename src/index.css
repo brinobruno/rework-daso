@@ -87,3 +87,7 @@ p, span, a, strong, li {
 .dc-back-to-top {
   clip-path: circle();
 }
+
+.about-items > div img {
+  clip-path: circle();
+}

@@ -20,6 +20,9 @@ export const Footer = () => {
             />
 
             <span className='font-josefin text-xl text-[#FAFAFA]'>
+              48.616.724/0001-90
+            </span>
+            <span className='font-josefin text-xl text-[#FAFAFA]'>
               ©2022 Daso Confeitaria.
             </span>
             <span className='font-josefin text-xl text-[#FAFAFA]'>

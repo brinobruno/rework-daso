@@ -6,33 +6,73 @@ export const About = () => {
       id='sobre'
       className='flex justify-center py-32 px-6 bg-[#fdfcf4]'
     >
-      <div className='max-w-6xl w-full flex items-center justify-between'>
+      <div className='max-w-6xl w-full flex items-center justify-between flex-col'>
         <div>
-          <img
-            src={ Oreo }
-            alt='Doce'
-            title='Doce'
-            className='max-w-[450px]'
-          />
-        </div>
-
-        <div className='h-full flex flex-col items-start justify-center
-        text-center max-w-[400px] gap-4'>
-          <h3 className='font-poppins font-bold text-4xl text-left'>
-            Sobre Sophia e/ou DA.SO
+          <h3 className='font-poppins font-bold text-4xl mb-4 text-center'>
+            Sobre...
           </h3>
-          <p className='font-josefin font-regular text-lg text-gray-700
-          text-left'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-            pariatur mollitia neque ex, ducimus ad error dolorum placeat fuga
-            minus nam ipsa, accusamus nemo voluptatum enim nulla voluptates
-            corporis rem?
-          <br />
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit,
-            quis ut rem distinctio quia illo sit rerum dicta, laudantium aliquid
-            cupiditate quam magnam sequi voluptate? Molestias dolorum architecto
-            expedita possimus.
-          </p>
+
+          <div className='about-items flex justify-between items-start gap-6'>
+            <div className='bg-[#FFFFFF] shadow-lg rounded-lg p-8'>
+              <img
+                src={ Oreo }
+                alt=''
+                title=''
+                className=''
+              />
+
+              <h5 className='font-poppins font-bold text-3xl my-4 text-center'>
+                Sobre...
+              </h5>
+              <p>
+                <span>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia
+                  hic ad deleniti id corporis voluptatibus, ducimus error! Obcaecati
+                  maiores beatae facilis reiciendis illo debitis inventore commodi.
+                </span>
+              </p>
+            </div>
+
+            <div className='bg-[#FFFFFF] shadow-lg rounded-lg p-8'>
+              <img
+                src={ Oreo }
+                alt=''
+                title=''
+                className=''
+              />
+
+              <h5 className='font-poppins font-bold text-3xl my-4 text-center'>
+                Sobre...
+              </h5>
+              <p>
+                <span>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia
+                  hic ad deleniti id corporis voluptatibus, ducimus error! Obcaecati
+                  maiores beatae facilis reiciendis illo debitis inventore commodi.
+                </span>
+              </p>
+            </div>
+            
+            <div className='bg-[#FFFFFF] shadow-lg rounded-lg p-8'>
+              <img
+                src={ Oreo }
+                alt=''
+                title=''
+                className=''
+              />
+
+              <h5 className='font-poppins font-bold text-3xl my-4 text-center'>
+                Sobre...
+              </h5>
+              <p>
+                <span>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia
+                  hic ad deleniti id corporis voluptatibus, ducimus error! Obcaecati
+                  maiores beatae facilis reiciendis illo debitis inventore commodi.
+                </span>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
