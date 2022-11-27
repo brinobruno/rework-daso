@@ -60,7 +60,7 @@ export const Header = () => {
               offset={ -120 }
             >
             { sectionsData.map((item, i) => (
-              <li key={i}>
+              <li key={ i }>
                 <a
                   href={ item.href }
                   className='capitalize font-josefin text-base font-semibold
