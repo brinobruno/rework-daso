@@ -29,7 +29,6 @@ export function App() {
       </main>
       <Divider />
       <Footer />
-
       <BackToTop />
     </React.StrictMode>
   )
